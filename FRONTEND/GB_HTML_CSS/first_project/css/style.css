@@ -1,0 +1,20 @@
+html,
+body {
+  font-family: sans-serif;
+}
+.great-header{
+  font-size: 64px;
+color: #1F3F68;
+
+}
+.contact-header{
+  font-weight: 500;
+font-size: 44px;
+text-align: center;
+}
+.page-text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #1f3f68;
+}
+.
