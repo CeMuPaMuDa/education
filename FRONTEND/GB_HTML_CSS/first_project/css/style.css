@@ -42,6 +42,21 @@ body {
   line-height: 26px;
   color: #1f3f68;
 }
+/* footer */
+.footer-text > .content-header{
+  width: 495px;
+}
+.footer-text > .page-text{
+  width: 340px;
+}
+.footer-text > .content-header,
+.footer-text > .page-text{
+  text-align: left;
+}
+.footer-list{
+  display: flex;
+  justify-content: space-around;
+}
 /* MAIN PAGE */
 /* signboard */
 .signboard-text > .great-header{
