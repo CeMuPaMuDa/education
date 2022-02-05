@@ -17,13 +17,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-/* signboard */
-.signboard-text > .great-header{
-  width: 510px;
-}
-.signboard-text > .page-text{
-  width: 425px;
-}
 /* text elements */
 .great-header {
   font-size: 64px;
@@ -49,6 +42,23 @@ body {
   line-height: 26px;
   color: #1f3f68;
 }
+/* MAIN PAGE */
+/* signboard */
+.signboard-text > .great-header{
+  width: 510px;
+}
+.signboard-text > .page-text{
+  width: 425px;
+}
+/* benefits */
+.benefits-cards{
+  display: flex;
+  justify-content: space-around;
+}
+.benefits-card_item > .card-header{
+  width: 359px;
+}
+
 /* form elemets */
 input,
 textarea {
