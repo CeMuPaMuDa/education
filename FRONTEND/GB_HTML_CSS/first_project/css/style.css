@@ -17,10 +17,13 @@ body {
   display: flex;
   justify-content: space-between;
 }
+/* signboard */
+
 /* text elements */
 .great-header {
   font-size: 64px;
   color: #1f3f68;
+  width: 510px;
 }
 .contact-header {
   font-weight: 500;
