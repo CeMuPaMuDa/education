@@ -73,7 +73,16 @@ body {
 .benefits-card_item > .card-header{
   width: 359px;
 }
-
+/* CONTACT PAGE */
+/* communication */
+.communication{
+  display: flex;
+  justify-content: space-around;
+}
+/* map */
+.map-item{
+width: 100%;
+}
 /* form elemets */
 input,
 textarea {
