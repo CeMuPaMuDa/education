@@ -18,12 +18,16 @@ body {
   justify-content: space-between;
 }
 /* signboard */
-
+.signboard-text > .great-header{
+  width: 510px;
+}
+.signboard-text > .page-text{
+  width: 425px;
+}
 /* text elements */
 .great-header {
   font-size: 64px;
   color: #1f3f68;
-  width: 510px;
 }
 .contact-header {
   font-weight: 500;
