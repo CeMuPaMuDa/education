@@ -84,7 +84,7 @@ h6 {
 /* All page */
 html,
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
 }
 ol,
@@ -118,20 +118,26 @@ ul {
   font-size: 44px;
   text-align: center;
 }
-
 .content-header {
   font-size: 36px;
   text-align: center;
+  font-weight: 300;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #000000;
 }
 .card-header {
   font-size: 20px;
   line-height: 30px;
+  letter-spacing: 0.05em;
   color: #1f3f68;
 }
 .page-text {
   font-size: 16px;
   line-height: 26px;
-  color: #1f3f68;
+  letter-spacing: 0.05em;
+  opacity: 0.6;
+  color: #1F3F68;
 }
 /* footer */
 .footer-text > .content-header {
@@ -149,11 +155,11 @@ ul {
   justify-content: space-around;
 }
 /* MAIN PAGE */
-.top-content{
+.top-content {
   height: 768px;
-  background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+  background: linear-gradient(0deg, #ebf3fb 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
-.top-content__box{
+.top-content__box {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -162,20 +168,14 @@ ul {
   background-position: 888px 220px;
 }
 /* signboard */
-.signboard{
+
+.signboard-text {
+  padding-top: 115px;
   padding-bottom: 190px;
 }
-.signboard-text{
-  padding-top: 115px;
-  flex-grow: 1;
-}
-.signboard-paragraph{
-font-size: 16px;
-line-height: 26px;
-letter-spacing: 0.05em;
-opacity: 0.6;
-margin-top: 32px;
-margin-bottom: 71px;
+.signboard-paragraph {
+  margin-top: 32px;
+  margin-bottom: 71px;
 }
 .signboard-text > .great-header {
   width: 510px;
@@ -183,25 +183,56 @@ margin-bottom: 71px;
 .signboard-text > .page-text {
   width: 425px;
 }
-.signboard-link{
-background: #5A98D0;
-box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
-border-radius: 10px;
-padding: 15px 50px;
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-letter-spacing: 0.04em;
-color: #FFFFFF;
+.signboard-link {
+  background: #5a98d0;
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  border-radius: 10px;
+  padding: 15px 50px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  display: inline-block;
 }
 /* benefits */
+.benefits {
+  padding-top: 64px;
+}
+
 .benefits-cards {
   display: flex;
   justify-content: space-around;
+  padding-top: 64px;
 }
-.benefits-card_item > .card-header {
+.benefits-card_item {
+  background: #ffffff;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  padding: 44px 32px;
   width: 359px;
 }
+.benefits-card-img {
+  display: flex;
+  justify-content: center;
+}
+.benefits-card_item__header {
+  padding-top: 50px;
+}
+.benefits-card_item__text{
+  padding-top: 15px;
+}
+.benefits-card_item__link{
+  padding-top: 28px;
+}
+.card-link{
+  font-size: 14px;
+line-height: 30px;
+letter-spacing: 0.05em;
+color: #5A98D0;
+
+}
+
 /* CONTACT PAGE */
 /* communication */
 .communication {
