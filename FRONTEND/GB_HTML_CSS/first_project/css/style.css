@@ -84,7 +84,8 @@ h6 {
 /* All page */
 html,
 body {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
 }
 ol,
 ul {
@@ -94,7 +95,6 @@ ul {
 .container {
   width: 1440px;
   margin: 0 auto;
-  outline: 1px solid red;
 }
 /* header */
 .menu-list {
@@ -108,6 +108,9 @@ ul {
 /* text elements */
 .great-header {
   font-size: 64px;
+  line-height: 74px;
+  font-weight: 300;
+  letter-spacing: 0.04em;
   color: #1f3f68;
 }
 .contact-header {
@@ -146,12 +149,50 @@ ul {
   justify-content: space-around;
 }
 /* MAIN PAGE */
+.top-content{
+  height: 768px;
+  background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+.top-content__box{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-image: url(../img/top_bg.png);
+  background-repeat: no-repeat;
+  background-position: 888px 220px;
+}
 /* signboard */
+.signboard{
+  padding-bottom: 190px;
+}
+.signboard-text{
+  padding-top: 115px;
+  flex-grow: 1;
+}
+.signboard-paragraph{
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+opacity: 0.6;
+margin-top: 32px;
+margin-bottom: 71px;
+}
 .signboard-text > .great-header {
   width: 510px;
 }
 .signboard-text > .page-text {
   width: 425px;
+}
+.signboard-link{
+background: #5A98D0;
+box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+border-radius: 10px;
+padding: 15px 50px;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
 }
 /* benefits */
 .benefits-cards {
