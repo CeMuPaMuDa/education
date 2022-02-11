@@ -202,7 +202,7 @@ ul {
 
 .benefits-cards {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-top: 64px;
 }
 .benefits-card_item {
@@ -230,9 +230,20 @@ ul {
 line-height: 30px;
 letter-spacing: 0.05em;
 color: #5A98D0;
-
 }
-
+/* demonstration */
+.demonstration{
+  padding-top: 64px;
+}
+.demonstration-text{
+  padding-top: 32px;
+  text-align: center;
+  margin: 0 auto;
+  width: 52%;
+}
+.demonstration-images{
+  padding-top: 64px;
+}
 /* CONTACT PAGE */
 /* communication */
 .communication {
